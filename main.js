@@ -30,7 +30,7 @@ function speak(){
     speak_data = document.getElementById("textbox").value;
    
 
-    var utterthis = new SpeechSynthesisUtterance(speak_data);
+    var utterThis = new SpeechSynthesisUtterance(speak_data);
 
     synth.speak(utterThis);
     Webcam.attach(camara);
